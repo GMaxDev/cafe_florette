@@ -6,6 +6,7 @@
 
 html, body {
     font-family: 'Open Sans', sans-serif;
+    color: #222;
 }
 
 h1, h2, h3 {
@@ -28,6 +29,17 @@ a {
     background: #111;
 }
 
+.container {
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .btn {
     display: inline-block;
     padding: 15px 25px;
@@ -44,11 +56,6 @@ a {
 .btn-primary:hover {
     background: #222;
     color: white;
-}
-
-.my-10 {
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 
@@ -118,4 +125,16 @@ a {
     font-size: 18px;
     letter-spacing: 0.5px;
     line-height: 1.9em;
+}
+ /* Features*/
+
+.features {
+    overflow: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.feature {
+    float: left;
+    width: 50%;
 }
