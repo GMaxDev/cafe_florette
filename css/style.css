@@ -140,7 +140,7 @@ a {
 
 
 .vp {
-    height: 700px;
+    min-height: 700px;
     background: url("https://dyma-images.s3.fr-par.scw.cloud/html-css/projects/project1/cafe1.jpg");
     background-size: cover;
     text-align: center;
@@ -148,6 +148,7 @@ a {
 
 .vp-content {
     max-width: 600px;
+    padding: 20px;
     padding-top: 150px;
     color: white;
     display: block;
@@ -155,7 +156,7 @@ a {
 }
 
 .vp-content h1 {
-    font-size: 50px;
+    font-size: 3.2rem;
 }
 
 .vp-content p {
@@ -167,7 +168,7 @@ a {
 
 .features {
     overflow: auto;
-    padding: 100px 0;
+    padding: 100px 20px;
     text-align: center;
 }
 
@@ -186,7 +187,7 @@ a {
 /* reservation */
 
 .reservation {
-    padding: 100px 0;
+    padding: 100px 20px;
     text-align: center;
 }
 
@@ -206,7 +207,7 @@ footer p {
 /* where */
 
 .where {
-    padding: 180px 0;
+    padding: 180px 0 100px 0;
     overflow: auto;
     min-height: 100vh;
 }
@@ -227,11 +228,12 @@ footer p {
 
 .contact {
     padding: 100px 0;
-    min-width: 100vh;
+    min-height: 100vh;
 }
 
 .contact_form_container {
     max-width: 600px;
+    padding: 20px;
     margin: auto;
 }
 
